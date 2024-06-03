@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "mongodb12"
+    bucket = "tfbuckett"
     prefix = ""
   }
 }
