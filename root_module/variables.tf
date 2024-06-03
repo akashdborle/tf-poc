@@ -50,10 +50,12 @@ variable "vm_deletion_protect" {
   default     = true
 }
 
+/*
 variable "snapshot_policy_name" {
   description = "The name of the snapshot_policy_name to attach this disk to"
   default     = ""
 }
+*/
 
 ####################
 # network-interface
