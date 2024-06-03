@@ -106,8 +106,10 @@ resource "google_compute_instance" "gce_vm" {
 ###############################################
 # Snapshot Policy Attachment for Boot Disks
 ###############################################
+/*
 resource "google_compute_disk_resource_policy_attachment" "boot_diskpolicy_attach" {
   name = var.snapshot_policy_name
   disk = local.boot_disk_name
   zone = var.machine_zone
 }
+*/
